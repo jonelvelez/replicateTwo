@@ -1,0 +1,882 @@
+nav{
+    background: #333333 !important;
+    padding: 0 !important;
+    
+    
+}
+
+nav .navbar-brand{
+  margin: 0!important;
+  display: flex;
+  align-items: center;
+}
+
+
+
+nav .navbar-brand .hotel4{
+    color: #fff;
+  
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+nav img{
+    width: 35%;
+
+    display: block;
+    margin: 0 auto ;
+    margin-right: 0 !important;
+}
+
+nav ul{
+    margin-right: 25%;
+}
+
+
+
+nav .nav-link{
+    color: #fff !important;
+    font-size: 0.9em;   
+   
+    float: left;
+}
+
+nav #navbarText{
+    flex-grow: 0;
+
+}
+
+nav .dropdown-1 {
+    background-color: transparent;
+  
+}
+
+nav .dropdown-1 .btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 0%;
+    color: rgb(155, 148, 148);
+}
+
+
+nav .dropdown-1 .btn:hover{
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+nav .dropdown-1 .btn:focus{
+    outline: none !important;
+    background: none;
+}
+
+nav .dropdown-2 {
+    background-color: transparent;
+  
+}
+
+nav .dropdown-2 .btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 0%;
+    color: rgb(155, 148, 148);
+}
+
+
+nav .dropdown-2 .btn:hover{
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+nav .dropdown-2 .btn:focus{
+    outline: none !important;
+    background: none;
+}
+
+nav .nav-btn{
+    margin-left: 20px;
+    font-size: 0.8em;
+    letter-spacing: .15em;
+    background-color: #fff;
+    color: #333333;
+    border-radius: 0%;
+    padding: 3px 10px !important;
+    font-weight: 500;
+    border-color: #fff;
+}
+
+nav .nav-btn:hover{
+   background-color: rgb(226, 220, 220);    
+   outline: none;
+   color: #333333;
+   transition: background-color .2s;
+   border-color: #fff;
+}
+
+nav .navbar-toggler{
+    border: none;
+}
+
+nav .navbar-toggler i{
+    color: #fff !important;
+    font-size: 20px;
+   
+}
+
+
+@media only screen and (max-width: 768px){
+    nav #navbarText{
+      text-align: center;
+    }
+
+    nav .nav-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+.intro{
+    height: 100vh;
+    background-image: url(img/background1.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat:no-repeat;
+    background-position:50% 70%;
+}
+
+.intro .overlay{
+    min-height:100%;
+    opacity: 0.4; 
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+}
+
+.intro .content{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    width: 100%;
+    text-align: center;
+ 
+}
+
+.intro .content .calendar-align{
+    display: flex;
+}
+
+.intro .content h1{
+    color: #fff;
+    font-family: 'Gilda Display', serif;
+    font-size: 80px;
+ 
+}
+
+.intro .content .calendar-align{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.intro .content .calendar{
+    width: 150px;
+    height: 100px;
+    background: #fff;
+    
+}
+
+.intro .content .calendar-content{
+    padding: 10px;
+    background: #fff;
+    background-color: #fff;
+    font-size: 35px;
+    border-left: 1px solid rgb(201, 201, 201);
+}
+
+.intro .content .calendar-check{
+    width: 150px;
+    height: 100px;
+    background: #333333;
+}
+
+.intro .content .calendar-check:hover{
+    background: #202020;
+    transition: .5s;
+}
+
+.intro .content .calendar-check p{
+    font-size: 9px;
+    color: #fff;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    line-height: 111px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    
+    .intro{
+        background-size: 100% 100%;
+        background-position:center left;
+    }
+
+    .intro .content h1{   
+        font-size: 30px;
+    }  
+}
+
+
+.history{
+    background-color: #000; 
+}
+
+.history img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+
+.history .history-text{
+   /* height: 100vh; */
+   height: 100%;
+   padding-bottom: 50px;  
+}
+
+.history .content{
+   padding-top: 100px;
+ 
+}
+
+.history .content h1{
+    font-size: 50px;
+    font-family: 'Gilda Display', serif;
+    color: #fff;
+}
+
+.history .content h1 mark{
+    color: #c19b76;
+    background-color: transparent;
+}
+
+.history .content .paragraph1{
+    padding-top: 30px;
+
+}
+
+.history .content .btn{
+    background-color: #333333;
+    border-radius: 0;
+ 
+}
+
+.history .content .btn:hover{
+    background-color: #222222;
+  
+}
+
+.history .content .btn{
+    font-size: .7em;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+   
+}
+
+@media only screen and (max-width: 1125px){
+    .history .history-text{
+        /* height: 100%;
+        padding-bottom: 50px;   */
+    }
+
+    .history .history-text h1{
+        /* font-size: 50px; */
+    }
+
+    
+}
+
+.rooms{
+    /* height: 100vh; */
+}
+
+.rooms .title{
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.rooms .title h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    font-weight: 100 !important;
+    color: #000;
+}
+
+.rooms .title .line{
+    height: 0.09em;
+    width: 2em;
+    background-color: #333333;
+    display: inline-block;
+    
+}
+
+.rooms .title h1{
+    padding-top: 20px;
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.rooms #pic1{
+    width: 100%;
+   
+}
+
+.rooms .roomleft{
+    overflow: hidden;
+}
+
+.rooms .pic1-text{
+    padding: 30px 0 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+}
+
+.rooms .pic1-text h5{
+   font-size: 30px;
+   font-family: 'Gilda Display', serif;
+   font-weight: 100 !important;
+}
+
+.rooms .pic1-text p{
+    padding-top: 20px;
+ }
+
+ .rooms .pic1-text .btn{
+    background: #333333;
+    border-radius: 0%;
+    color: #fff;
+    padding: 5px 40px;
+ }
+
+.rooms .firstrow{
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 50px;
+    
+}
+
+.rooms #pic2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    padding-bottom: 20px;
+ }
+
+
+
+ .rooms .beds .bottomleft{
+    position: relative;  
+    bottom: 50px;
+    left: 0px;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 10px;
+}
+
+ .rooms .beds mark{
+     background-color: #c19b76;
+     float: right;
+     color: #fff;
+     padding: 0 5px !important;
+   
+ }
+
+ @media only screen and (max-width: 1024px){
+     .rooms .firstrow{
+         padding-top: 50px; 
+         height: 100%;
+     }
+
+     .rooms .title h1{
+         font-size: 30px;
+     }
+
+
+ }
+
+ .services{
+     background-image: url(img/background5.jpg);
+     /* background-size: 100%;
+     background-position: top;
+     background-repeat:no-repeat;
+     background-position:50% 70%; */
+
+     background-position: top;
+     background-attachment: fixed;
+     /* background-position: center; */
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+     position: relative;
+ }
+
+ .services:before{
+   
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        opacity: 0.6;
+        background-color: rgb(0, 0, 0);
+ }
+
+.services .overlay{
+    
+    /* opacity: 0.4; 
+    background-color: rgb(0, 0, 0);
+    background-size:cover; */
+    
+    /* background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    position: absolute; */
+
+  
+}
+
+.services .content{  
+    text-align: center;
+    position: relative;
+    bottom: 90%;
+}
+
+.services .rowalign{
+    /* margin: 0 100px;  */
+    padding-bottom: 60px;
+    margin: 0 !important;
+}
+
+.services .content h1{
+    color: #fff;
+    font-family: 'Gilda Display', serif;
+    font-size: 3.8em;
+    padding: 50px 0;
+    letter-spacing: 0.01em;
+}
+
+.services .content .card{
+    border: none;
+    border-radius: 0;
+
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    
+}
+
+.services .content .card .card-top{
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+}
+
+.services .content .card .card-top h6{
+   font-weight: 700;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+}
+
+.services .content .card .card-top h3{
+    font-family: 'Gilda Display', serif;
+}
+
+.services .content .card .card-top h5{
+    font-size: 13px;
+    font-weight: 100 !important;
+    letter-spacing: 0.1em;
+}
+
+.services .content .card-body{
+    text-align: left;
+    padding: 30px;
+    letter-spacing: 0.1em;
+}
+
+.services .content .card-body h6{ 
+    font-weight: 300 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.services .content .card-body .btn-align{ 
+    display: flex;
+    justify-content: center;
+}
+
+.services .content .card-body .btn-align .btn{ 
+    border-radius: 0;
+    background-color: #c19b76;
+    border-color: #c19b76;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 5px 30px;
+  
+}
+
+
+@media only screen and (max-width: 1024px){
+    /* .services{
+        background-size: 100% 100%;
+        background-position:center left;
+        object-fit: cover;
+        object-position: center center;
+    } */
+
+    .services h1{
+        font-size: 30px !important;
+    }
+
+    /* .services .rowalign{
+        margin: 0 !important;
+    } */
+
+    .services .content .card{
+        /* width: 100% !important;
+        margin-bottom: 20px !important; */
+    }
+}
+
+.around{
+    /* height: 100vh; */
+}
+
+.around .title{
+    text-align: center;
+    padding: 40px 0 20px 0;
+    /* font-style: normal; */
+}
+
+.around .title h1{
+    font-family: "Gilda Display", serif;
+    font-size: 3.5rem;
+    letter-spacing: .1em;
+    
+}
+
+/* .around .content{
+    height: 100vh;
+} */
+
+.around .content1{
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+.around .content1 .wrapper{
+    position: relative;
+    padding: 2rem;
+    height: 25rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.around img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  
+
+}
+
+
+
+.around .content1 .overlay{
+    position: absolute;
+    background: #000000;
+    opacity: 0.3;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.around .content1 .content-text{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.around .content1 .content-text h2{
+    font-family: 'Gilda Display', serif;
+}
+
+.around .content1 .content-text h6{
+    letter-spacing: .09em;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 1024px){
+    .around .title h1{
+        font-size: 30px !important;
+    }
+} 
+
+
+.client{
+    background-image: url(img/background7.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    /* height: 100vh; */
+}
+
+.client .overlay{
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; */
+ 
+    min-height:100%;
+    opacity: 0.2; 
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+   
+}
+
+.client .wrapper{
+    position: relative;
+    bottom: 100%;
+    text-align: center;
+    padding-top: 50px;  
+    display: block;
+    margin: 0 auto;
+}
+
+
+.client .wrapper h1{
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.client .wrapper .content{
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.client .wrapper .card{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-color: #c19b76;
+    padding: 0 10px;
+}
+
+.client .wrapper .image{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 2rem auto;
+    border-radius: 50%;
+   
+}
+
+.client .wrapper .card img{
+    width: 100%;
+}
+
+.client .wrapper .card-text{
+    /* margin: 2rem auto; */
+    font-weight: 100 !important;
+    letter-spacing: 1px;
+    /* padding: 30px 0; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+
+    padding: 20px 10px;
+    text-align: left !important;  
+}
+
+.client .wrapper .name{
+    
+    font-weight: 700;
+}
+
+.client .wrapper .travel{
+   
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px){
+    .client .wrapper .card-text{
+        /* padding: 20px 10px;
+        text-align: left !important;   */
+    }
+
+    .client .wrapper h1{    
+        font-size: 30px;   
+    }
+}
+
+.map{
+    background-color: #efefef;
+}
+
+.map .title{
+    text-align: center;
+    padding: 50px;
+}
+
+.map .title h1{
+    font-family: 'Gilda Display', serif;
+    font-size: 3rem;
+    font-weight: 100 !important;
+    letter-spacing: 1px;
+}
+
+.map .content{
+    height: 100vh;
+    filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 1125px){
+    .map .title h1{
+        
+        font-size: 2.5rem;
+        
+    }
+}
+
+.page-footer{
+    background-color: #232323;
+    color: #fff;
+}
+
+.page-footer .content{
+    padding: 30px 20px;
+}
+
+.page-footer .content h1{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.page-footer .content h6{
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.page-footer .content h2{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+
+.page-footer .footer-copyright{
+    background-color: #333333;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-footer .footer-copyright a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-footer .icon {
+    padding-top: 10px;
+}
+
+.page-footer .icon i{
+    font-size: 1.3rem;
+    padding-right: 20px;
+}
+
+.page-footer .content h3{
+    font-family: 'Gilda Display', serif;
+    letter-spacing: 1px;
+}
+
+.page-footer .content form{
+  
+    
+}
+
+.page-footer .content form input{
+    background-color: #000;
+    border-color: #000;
+    padding: 5px;
+    color: #fff;
+    width: 10rem;
+   
+}
+
+.page-footer .content .btn{
+    border-radius: 0;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    background-color: #c19b76;
+    outline: none !important;
+ 
+}
+
+.page-footer .content .btn:hover{
+ 
+
+}
+
+.page-footer .content .btn:active{
+    background-color: #b4987c;
+    outline: none !important;
+    box-shadow: none;
+   
+}
+
+
+
+.page-footer .content form input::placeholder{
+
+    color: #fff;
+}
+
